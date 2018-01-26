@@ -1,0 +1,19 @@
+{
+	ambient 0.75 1 0.75
+	{
+		#translate 0 25 -32
+		camera  -1 -1 1 1 -0.1 -200
+		depth 0 -200 (0 0 0)
+
+	}
+
+	flat
+	{
+		translate 0 0 -130
+		rotate X -90
+		rotate Z 10
+		scale 700 700 700
+		obj "global"
+	}
+
+}

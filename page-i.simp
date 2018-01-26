@@ -1,0 +1,25 @@
+{
+	{
+	    camera -1 -1 1 1 -0.1 -200
+	}
+	{
+	    translate 0 2 -100
+	    light 1, 1, 1, 1, 0
+	    file "lightMarker"
+
+	}
+	ambient 1 1 1
+
+
+	flat
+	{
+	    surface 1 0 0 0.8 20
+		translate -20 -90 -160
+		#rotate X -90
+		rotate Z 10
+		#scale 700 700 700
+		scale 0.5 0.5 0.5
+		obj "Apple"
+	}
+
+}
